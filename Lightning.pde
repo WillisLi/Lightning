@@ -6,7 +6,7 @@ void setup(){
   strokeWeight(10);
   String url = "https://preview.ibb.co/epWZMp/goku.jpg";
   PImage webImg;
-  webImg = loadImage(url, "png");
+  webImg = loadImage(url, "jpg");
   webImg.resize(400,500);
   background(webImg);
 }
